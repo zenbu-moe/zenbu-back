@@ -1,7 +1,7 @@
 {
-  "name": "zenbu-back",
+  "name": "zenbu-graphql",
   "version": "1.0.0",
-  "description": "The backend of Zenbu.moe",
+  "description": "GraphQL API for Zenbu.moe",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,12 +11,19 @@
     "url": "git+https://github.com/zenbu-moe/zenbu-back.git"
   },
   "author": "cakes",
-  "license": "ISC",
+  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/zenbu-moe/zenbu-back/issues"
   },
   "homepage": "https://github.com/zenbu-moe/zenbu-back#readme",
   "dependencies": {
-    "@hapi/hapi": "^20.0.3"
+    "apollo-server": "^2.19.1",
+    "datasource-sql": "^1.3.1",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.4.0",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
   }
 }

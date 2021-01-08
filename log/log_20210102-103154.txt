@@ -1,0 +1,1 @@
+[2021. Jan 2. 10:31:59 - ERR] DB query error: Error: select `id`, `username`, `donatorLevel`, `colorAccent`, `registerDate` from `info` where `name` like 'kex' - ER_BAD_FIELD_ERROR: Unknown column 'name' in 'where clause'
