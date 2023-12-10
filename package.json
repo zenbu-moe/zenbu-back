@@ -1,0 +1,18 @@
+{
+  "name": "zenbu-backend",
+  "version": "0.0.1",
+  "description": "Backend service for Zenbu. Built with MongoDB and graphql (tentatively)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@sigmacw_",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.2",
+    "nodemon": "^3.0.2"
+  }
+}
